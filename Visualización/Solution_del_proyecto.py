@@ -51,7 +51,7 @@ for i in range(len(pokemones)):
     altura.append(a)
     peso.append(b)
 
-plt.scatter(sorted(altura), peso)
+plt.scatter(altura, peso)
 plt.xlabel("Altura (cm)")
 plt.ylabel("Peso (kg)")
 plt.show()
